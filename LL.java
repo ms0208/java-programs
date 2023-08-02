@@ -1,6 +1,8 @@
  // Linked list by scratch 
 class LL{ 
+ 
     private int size; 
+ 
     LL() {
         this.size = 0;
     }
@@ -17,7 +19,9 @@ class LL{
         }
     }
        // fist add in LL 
+ 
        public void addFirst(String data) { 
+        
         Node newNode = new Node(data); 
         if(head == null) {
            head = newNode;
