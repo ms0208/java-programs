@@ -14,6 +14,7 @@ class LL{
 
         Node(String data){  // node constructor 
             this.data = data;
+         
             this.next = null;
             size++ ;
         }
